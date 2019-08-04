@@ -1,0 +1,16 @@
+{
+  "name": "sassy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "global": "^4.4.0",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1",
+    "sass": "^1.22.9"
+  },
+  "scripts": {
+    "build-css": "/Users/tyler/reactapp/sassy/node_modules/node-sass/bin/node-sass --include-path css css/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"yarn run build-css\""
+  }
+}
